@@ -2,7 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 
+###GRID Method, compute psoterior at all points in a grid of candidate parameter values###
+
+
 rng = np.random.default_rng(0)
+
 
 
 # random data: mean = 0, std = 1  
@@ -57,5 +61,5 @@ ax2.set_title("Prior vs likelihood vs posterior")
 
 plt.show()
 
-
+### MH Method, 
 
